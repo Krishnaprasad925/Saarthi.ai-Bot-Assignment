@@ -31,7 +31,7 @@ class ActionGreet(Action):
         shown_privacy = tracker.get_slot("shown_privacy")   
         name_entity = next(tracker.get_latest_entity_values("name"), None)
         if intent == "greet" or (intent == "enter_data" and name_entity):
-            if shown_privacy and name_entity and name_entity.lower() != "maya": 
+            if shown_privacy and name_entity and name_entity.lower() != "saarthi": 
                 dispatcher.utter_template("utter_greet_name", tracker, name=name_entity)
                 return []
             else:
@@ -69,7 +69,7 @@ class intent_recog(Action):
         elif (intent == 'diff_domains'):
             response = "diff_domains"
         elif (intent == 'explain'):
-            response = "explain"
+            response = "Please, connect to our customer support 8861512182 for the details"
         elif (intent == 'onboarding_info'):
             response = "onboarding_info_details...."
         elif (intent == 'registration_info'):

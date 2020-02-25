@@ -58,6 +58,12 @@ slots:
   shown_privacy:
     type: unfeaturized
 templates:
+  utter_inform_privacypolicy:
+  - text: By chatting to me you agree to our[Saarthi.ai privacy policy](http://saarthi.ai/)
+  utter_greet:
+  - text: Hi, This is Saarthi.ai . how can i help you ?
+  utter_ask_goal:
+  - text: If you're new to Saarthi.ai, I can help you get started!
   utter_goodbye:
   - text: Bye. Have a Great day ahead....
   - text: Bye bye :-)
@@ -67,12 +73,6 @@ templates:
   - text: Is there anything else I can help you with?
   utter_default_fallback:
   - text: Sorry. I did not understand can you be more specific.
-  utter_inform_privacypolicy:
-  - text: By chatting to me you agree to our[Saarthi.ai privacy policy]
-  utter_greet:
-  - text: Hi, This is Saarthi.ai . how can i help you ?
-  utter_ask_goal:
-  - text: If you're new to Saarthi.ai, I can help you get started!
   utter_noworries:
   - text: I'm happy to help.
   - text: You're welcome!
