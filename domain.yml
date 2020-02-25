@@ -1,0 +1,99 @@
+intents:
+- thanks
+- deny
+- diff_domains
+- greet
+- explain
+- affirm
+- weather_details
+- happy
+- goodbye
+- identity
+- anything_else
+- email_id
+- onboarding_info
+- registration_info
+- customer_support
+- restart
+entities:
+- sales
+- food delivery
+- agriculture
+- medium sized
+- sales marketing
+- mid sized companies
+- service
+- banking
+- enterprises
+- businesses
+- ecommerce
+- IT
+- domains
+- healthcare
+- telecommunication
+- small scale business
+- enterprizes
+- high scaled
+- product manufacturing
+- medium scale
+- enterprise functions
+- hospitality
+- customer service
+- startup
+- size of businesses
+- Lead generation
+- speak
+- meet
+- name
+- explain
+- diff_domains
+- identity
+slots:
+  shown_privacy:
+    type: unfeaturized
+templates:
+  utter_goodbye:
+  - text: Bye. Have a Great day ahead....
+  - text: Bye bye :-)
+  - text: Come  back soon...
+  - text: See you soon.
+  utter_anything_else:
+  - text: Is there anything else I can help you with?
+  utter_default_fallback:
+  - text: Sorry. I did not understand can you be more specific.
+  utter_inform_privacypolicy:
+  - text: By chatting to me you agree to our[Saarthi.ai privacy policy]
+  utter_greet:
+  - text: Hi, This is Saarthi.ai . how can i help you ?
+  utter_ask_goal:
+  - text: If you're new to Saarthi.ai, I can help you get started!
+  utter_noworries:
+  - text: I'm happy to help.
+  - text: You're welcome!
+  utter_identity:
+  - text: I am a conversational AI Chatbot created by the Saarthi.ai. /nI can help
+      you to get the information on different domians. /nEx:Agricultural, IT, Food
+      delivery, Sales and marketing...etc
+  utter_weather_details:
+  - text: weather today...
+  utter_customer_support:
+  - text: The Customer Support number is 8861512182
+  utter_email_id:
+  - text: The email_id is krishnagp7@gmail.com
+  utter_happy:
+  - text: Thanks buddy.
+actions:
+- utter_goodbye
+- utter_email_id
+- utter_weather_details
+- utter_default_fallback
+- utter_noworries
+- utter_anything_else
+- utter_greet
+- action_greet
+- action_intent
+- action_restart
+- utter_ask_goal
+- utter_identity
+- utter_customer_support
+- utter_happy

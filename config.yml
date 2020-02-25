@@ -1,0 +1,15 @@
+language: en
+pipeline: supervised_embeddings
+cors_origins:
+- '*'
+policies:
+- name: MemoizationPolicy
+  max_history: 5
+- name: KerasPolicy
+  epochs: 200
+- name: MappingPolicy
+- name: FormPolicy
+- name: FallbackPolicy
+  nlu_threshold: 0.3
+  core_threshold: 0.3
+  fallback_action_name: utter_default_fallback
