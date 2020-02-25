@@ -48,6 +48,11 @@ entities:
 - explain
 - diff_domains
 - identity
+- call
+- customer support
+- contact
+- number
+- connect
 slots:
   shown_privacy:
     type: unfeaturized

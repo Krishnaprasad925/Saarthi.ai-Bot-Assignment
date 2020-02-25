@@ -274,12 +274,12 @@
 - i am registered yes
 
 ## intent:customer_support
-- Can I talk to someone over a call
-- Do you provide assistance in customer support?
-- Can i get in contact with the customer support 
+- Can I talk to someone over a [call](customer_support)
+- Do you provide assistance in [customer support](customer_support)?
+- Can i get in [contact](customer_support) with the customer support 
 - Your contact details?
-- I need to quickly connect over phone can you share number
-- Can you share with me contact number
+- I need to quickly [connect](customer_support) over phone can you share number
+- Can you share with me contact [number](customer_support)
 - Could you help me assist in customer support?
 - Show me contact number.
 - I have a requirement and want contact detail
