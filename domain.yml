@@ -53,6 +53,7 @@ entities:
 - contact
 - number
 - connect
+- customer_support
 slots:
   shown_privacy:
     type: unfeaturized
@@ -76,8 +77,8 @@ templates:
   - text: I'm happy to help.
   - text: You're welcome!
   utter_identity:
-  - text: I am a conversational AI Chatbot created by the Saarthi.ai. /nI can help
-      you to get the information on different domians. /nEx:Agricultural, IT, Food
+  - text: I am a conversational AI Chatbot created by the Saarthi.ai/n I can help
+      you to get the information on different domians/n Ex:Agricultural, IT, Food
       delivery, Sales and marketing...etc
   utter_weather_details:
   - text: weather today...

@@ -175,7 +175,6 @@
 - totes
 - Outstanding
 - Adios
-- Amazing!
 - correct
 - alright
 - ok

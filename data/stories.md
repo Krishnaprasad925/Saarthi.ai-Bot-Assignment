@@ -132,3 +132,14 @@
     - action_intent
 * customer_support
     - utter_customer_support
+
+## New Story
+
+* greet
+    - action_greet
+* happy
+    - utter_happy
+* identity
+    - utter_identity
+* identity
+    - utter_identity
